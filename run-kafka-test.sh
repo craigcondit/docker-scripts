@@ -6,7 +6,7 @@ docker run \
 	--link zookeeper-test:zookeeper \
 	-e KAFKA_ZK_CHROOT=/kafka \
 	-e KAFKA_ADVERTISED_HOST=127.0.0.1 \
-	insideo/kafka
+	kafka-test
 
 sleep 5
 docker logs kafka-test
