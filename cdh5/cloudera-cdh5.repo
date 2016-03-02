@@ -1,0 +1,7 @@
+[cloudera-cdh%CDH_VERSION%]
+# Packages for Cloudera's Distribution for Hadoop, Version %CDH_VERSION%, on RedHat	or CentOS 6 x86_64
+name=Cloudera's Distribution for Hadoop, Version %CDH_VERSION%
+baseurl=https://archive.cloudera.com/cdh5/redhat/6/x86_64/cdh/%CDH_VERSION%/
+gpgkey =https://archive.cloudera.com/cdh5/redhat/6/x86_64/cdh/RPM-GPG-KEY-cloudera    
+gpgcheck = 1
+
